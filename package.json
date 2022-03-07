@@ -1,0 +1,20 @@
+{
+  "name": "lit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "buildc": "parcel build ./src/x-counter.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.2.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "browserslist": [
+    "Chrome > 90"
+  ]
+}
